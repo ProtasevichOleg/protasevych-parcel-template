@@ -1,15 +1,15 @@
 {
-  "name": "parcel-project-template",
-  "version": "2.0.0",
+  "name": "protasevych-parcel-template",
+  "version": "1.0.0",
   "description": "",
   "homepage": "https://your_username.github.io/your_repo_name/",
   "scripts": {
-    "start": "parcel src/*.html --port 2011",
+    "start": "parcel src/*.html --port 2012",
     "build": "parcel build src/*.html --public-url /your_repo_name/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/ProtasevichOleg/protasevych-parcel-template.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -18,7 +18,8 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
